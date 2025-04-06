@@ -16,5 +16,8 @@
     "url": "https://github.com/SS-520/typescript-sutdy01/issues"
   },
   "homepage": "https://github.com/SS-520/typescript-sutdy01#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
 }
