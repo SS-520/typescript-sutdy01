@@ -1,2 +1,2 @@
-let msg: string = 'Hello, TypeScript!';
+let msg: string = 'Hello, ts-node!';
 console.log({ msg });
