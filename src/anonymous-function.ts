@@ -7,7 +7,7 @@ let bmi: (height: number, weight: number) => number = function (
 ): number {
   return weight / (height * height);
 };
-/** 無名変数の格納先の変数のアノテーション
+/** 無名関数の格納先の変数のアノテーション
  * 推論時→ let bmi: (height: number, weight: number) => number
  * 推論ではなく厳密にアノテーションしたい場合は推論内容（：以降）を張り付けると○
  */
