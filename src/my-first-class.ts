@@ -19,7 +19,7 @@ class Person {
   }
 
   // profileメソッド（関数）を設定
-  pofile() {
+  pofile(): string {
     return `name: ${this.name}, age: ${this.age}`;
   }
 }
