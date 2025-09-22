@@ -26,5 +26,6 @@ type MyReturnType<T extends (...args: any) => any> = T extends (
 //  (...args: any) => any : 「配列でも何型でもよい」かつ「関数」の意 ⇒ 「Tは関数が入る」という制約がかかっている
 // T extends (...args: any) => infer R ? R : any;
 // 条件「T extends (...args: any) => infer R」? 真「R」 : 偽「any」;
+// 「T extends (...args: any) => infer R」⇒「T extends (...args: any) を推測（infer）してRに代入してね」⇒実質any
 // 「T extends (...args: any) => any」= 「T extends (...args: any) => infer R」／実質同じ
 // → ReturnTypeの引数は関数が入る⇒条件文実質「真(R)」のみ取る
